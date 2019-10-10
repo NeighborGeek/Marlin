@@ -36,7 +36,7 @@
 #ifdef MCU_STM32F103RE
   #define STM32_FLASH_SIZE (512 * 1024)
 #else
-  #define STM32_FLASH_SIZE (256 * 1024)
+  #define STM32_FLASH_SIZE (512 * 1024)
 #endif
 
 #define FLASH_EEPROM_EMULATION
